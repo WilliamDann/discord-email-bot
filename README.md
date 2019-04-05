@@ -12,4 +12,4 @@ The bot uses a json file to store configuration information. Below are their con
 | port        | Mail port of the host               | Number  |
 | tls         | If a TLS connection should be used  | Boolean |
 | token       | The discord bot token               | Boolean |
-| channel     | The id for the channl to send to    | string  |
+| channel     | The id for the channel to send to    | string  |
