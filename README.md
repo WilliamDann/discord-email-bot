@@ -2,7 +2,7 @@
 Send emails to a discord channel. 
 
 ### config.json
-The bot uses a json file to store configuration information. Below are ther configurable paramenters:
+The bot uses a json file to store configuration information. Below are their configurable paramenters:
 
 | parameter   |      descreption                    |  type   |
 |-------------|:------------------------------------|:--------|
