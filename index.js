@@ -43,7 +43,7 @@ function sendNewest() {
                 });
 
                 stream.once('end', function() {
-                    var channel = bot.channels.get("562812466778865695"); // announcments channel
+                    var channel = bot.channels.get(config.channel); // announcments channel
                     channel.send(buffer);
                     console.log(prefix + 'Body [%s] Finished', inspect(info.which));
                 });
