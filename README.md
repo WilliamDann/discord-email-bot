@@ -1,10 +1,10 @@
 # Discord Email Bot
-Send emails to a discord channel. 
+Send the newest email from an inbox to a discord channel. 
 
 ### config.json
 The bot uses a json file to store configuration information. Below are their configurable paramenters:
 
-| parameter   |      descreption                    |  type   |
+| parameter   |      description                    |  type   |
 |-------------|:------------------------------------|:--------|
 | user        | The email address to get email from | string  |
 | password    | The password of that email          | string  |
