@@ -1,0 +1,10 @@
+{
+    "user"     : "[EMAIL_ADDRESS_FROM]",
+    "password" : "[EMAIL_ADDRESS_PASSWORD]",
+    "host"     : "[EMAL_HOST (like imap.gmail.com)]",
+    "port"     : "[EMAIL_HOST_PORT]",
+    "tls"      : "false",
+
+    "token"    : "[DISCORD_API_TOKEN]",
+    "channel"  : "[CHANNEL_TO_SEND_TO]"
+}
