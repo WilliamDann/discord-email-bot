@@ -13,7 +13,10 @@ var imap = new Imap({
     tls: config.tls
 });
 
-const bot = new Discord.Client();
+const bot = new Discord.Client({ intents: [
+  Discord.GatewayIntentBits.Guilds,
+  Discord.GatewayIntentBits.GuildMessages
+]})
 bot.login(config.token);
 
 function openInbox(callback) {
